@@ -1,0 +1,88 @@
+
+body{
+  margin-top: 90px;
+}
+
+.navbar{
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #292b2c;
+  opacity: 0.9;
+  
+}
+
+.nav-item{
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+.nav-item:last-child{
+  margin-right: 0px;
+}
+.nav-link strong{
+  color: #fff;
+}
+.nav-link strong:hover{
+  color: #3292a6;
+}
+
+#home-head{
+  background: url("../img/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  background-attachment: fixed;
+}
+.poster{
+  max-height: 500px;
+}
+
+
+
+.home-overlay{
+  background:rgba(50, 146, 156, 0.7);
+
+}
+
+
+.bg-darkfo{
+  background: #262526;
+  
+}
+
+.myface{
+  margin-top: -60px;
+}
+
+.mycard:hover{
+  background: #3292a6;
+  color: white;
+  transition: 0.5s;
+
+}
+
+.mycard i{
+  color:#3292a6;
+  font-size: 25px;
+
+}
+
+.mycard:hover i{
+  transition: 0.5s;
+  color: white;
+}
+
+
+
+
+@media(max-width:576px){
+  .h1-heading h1{
+    font-size: 4rem;
+  }
+
+}
+@media(max-width:768px){
+  .myface{
+    margin-top:-110px;
+  }
+  
+}
+  
